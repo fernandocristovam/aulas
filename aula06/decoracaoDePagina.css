@@ -1,0 +1,38 @@
+body{
+  background-color:black;
+}
+
+h1{
+  color: red;
+  font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif
+}
+
+h2{
+  color:red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+table{
+  color:blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+tr{
+  color:blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+th{
+  color:blue;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td{
+  color:green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+  color:red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

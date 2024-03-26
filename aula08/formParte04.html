@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form parte 3 O inimigo agora e outro</title>
+</head>
+
+<body>
+
+  <fieldset>
+    <legend>Dados do aluno</legend>
+
+  <form method="post" action="mailto">
+
+    <label for="nome">nome:</label>
+    <input type="text" id="nome" name="nome">  &#160; &#160;   
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="endereco">endereço:</label>
+    <input type="text" id="endereco" name="endereco"> &#160; &#160;
+
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep"><br>
+
+      <br><br>
+    <label for="dia">data:</label>
+    <input type="date" id="dia" name="data">
+    <br><br>
+
+   </fieldset>
+
+   <fieldset>
+
+    <legend>avalie-nos</legend>
+
+    <label for="avaliacao">comentario</label><br>
+    <textarea name="comentario" id="avaliacao" cols="35" rows="10" placeholder="deixe seu comentario aqui:"
+      maxlength="370" required name="comentario"></textarea><br><br>
+
+    <label for="esperiencia">marque aqui como foi a sua experiencia:</label><br>
+    <select name="" id="esperiencia">
+
+      <option value="null" selected disabled>marque aqui</option>
+      
+      <option value="op1">muito ruim</option>
+      <option value="op2">ruim</option>
+      <option value="op3">mediana</option>
+      <option value="op4">boa</option>
+      <option value="op5">muito boa</option>
+
+    </select><br>
+
+    <input type="submit" value="Enviar">
+
+</fieldset>
+
+  </form>
+
+</body>
+
+</html>

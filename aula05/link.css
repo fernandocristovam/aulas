@@ -1,0 +1,21 @@
+body{
+  background-color:orange;
+}
+
+h1{
+  color:red;
+  font-family: Impact, Haedttenschweiler, 'Arial Narrow Bold', sans-serif;
+ background-color:cyan;
+}
+
+h2{
+  color:red;
+  font-family: Impact, Headttenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:cyan;
+}
+
+p{
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color:black;
+}
